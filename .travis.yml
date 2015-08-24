@@ -11,4 +11,4 @@ install:
   - go get -v github.com/mikespook/gearman-go/client
   - go get -v github.com/mikespook/gearman-go/worker
 before_script:
-  - tree /home/travis/.gimme/versions/go1.5.linux.amd64/pkg/tool/
+  - ls -l /home/travis/.gimme/versions/go1.5.linux.amd64/pkg/tool/*
