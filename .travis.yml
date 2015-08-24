@@ -8,6 +8,6 @@ before_install:
   - sudo apt-get remove -y gearman-job-server
   - sudo apt-get install -y gearman-job-server
 install:
-  - go get -v github.com/mikespook/gearman-go/client
-  - go get -v github.com/mikespook/gearman-go/worker
-  - go get -v github.com/mikespook/golib/signal
+  - go get -t -v github.com/mikespook/gearman-go/client
+  - go get -t -v github.com/mikespook/gearman-go/worker
+  - go get -t -v github.com/mikespook/golib/signal
