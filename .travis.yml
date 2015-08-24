@@ -10,4 +10,4 @@ before_install:
 install:
   - go get -v github.com/mikespook/gearman-go/client
   - go get -v github.com/mikespook/gearman-go/worker
-  - go get -v github.com/mikespook/golib
+  - go get -v github.com/mikespook/golib/signal
