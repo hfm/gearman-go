@@ -7,3 +7,6 @@ go:
 before_install:
   - sudo apt-get remove -y gearman-job-server
   - sudo apt-get install -y gearman-job-server
+install:
+  - go get -v https://github.com/mikespook/gearman-go/client
+  - go get -v https://github.com/mikespook/gearman-go/worker
